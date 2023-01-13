@@ -17,12 +17,22 @@ body {
 .screen {
     width: 220px;
     height: 45px;
+    font-size: 40px;
     background-color: silver;
     border: solid 2px black;
+    color: black;
+    display: flex;
+
+
     
 
 }
-.buttons {
+.title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.button {
     width: 225px;
     display: flex;
     flex-wrap: wrap;
